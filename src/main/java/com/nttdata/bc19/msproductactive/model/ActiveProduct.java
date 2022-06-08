@@ -12,6 +12,6 @@ import java.math.BigDecimal;
 public class ActiveProduct extends BaseModel {
     private String name;
     private double interestRateMonth;
-    private boolean allowBusinessClient;
-    private boolean allowPersonClient;
+    private Boolean allowBusinessClient;
+    private Boolean allowPersonClient;
 }
