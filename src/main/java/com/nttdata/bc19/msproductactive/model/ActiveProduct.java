@@ -11,7 +11,7 @@ import java.math.BigDecimal;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ActiveProduct extends BaseModel {
     private String name;
-    private BigDecimal interestRateMonth;
-    private Boolean allowBusinessClient;
-    private Boolean allowPersonClient;
+    private double interestRateMonth;
+    private boolean allowBusinessClient;
+    private boolean allowPersonClient;
 }
