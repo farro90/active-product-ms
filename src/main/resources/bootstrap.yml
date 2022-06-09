@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: ms-product-active
+  cloud:
+    config:
+      uri: http://localhost:8090
+      name: nttdata
+      password: nttd4t4
